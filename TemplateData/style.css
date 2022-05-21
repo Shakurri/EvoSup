@@ -18,10 +18,11 @@
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
 
 
-body{
+body {
   background-color: #292929;
 }
 #unityContainer{
-  width: 100vw;
-  height: 100vh;
+  width: 576px;
+  height: 1024px;
+  transform: scale(calc(100vw/576px));
 }
